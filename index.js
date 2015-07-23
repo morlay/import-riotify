@@ -56,11 +56,8 @@ module.exports = function (file, o) {
             $script.append(variableName + '.call(this, opts);')
             importFiles[src] = true;
           }
-        } else {
+        } else if (idx !== 0) {
           $script.append($self.text())
-        }
-
-        if (idx !== 0) {
           $self.remove();
         }
 
