@@ -1,0 +1,31 @@
+{
+  "name": "import-riotify",
+  "version": "0.0.1",
+  "description": "browserify plugin for riot tag files with some special",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^3.10.0",
+    "riot": "*",
+    "through": "^2.3.0"
+  },
+  "keywords": [
+    "riot",
+    "browserify",
+    "browserify-transform"
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morlay/import-riotify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/morlay/import-riotify/issues"
+  },
+  "homepage": "https://github.com/morlay/import-riotify#readme"
+}
