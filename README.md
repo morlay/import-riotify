@@ -14,6 +14,7 @@ but there have new feature to make riot tag has module dependencies
 
 
 ``` html
+<link href='/path/to/dependence/file.css'/>
 <link rel='import' href='/path/to/dependence/file.tag.html'/>
 
 ```

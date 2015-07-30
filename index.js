@@ -26,7 +26,7 @@ module.exports = function (file, o) {
 
       var codeBlockList = ['var riot = require("riot");'];
 
-      $('link[rel=import]').each(function () {
+      $('link').each(function () {
         var $self = $(this);
         var src = $self.attr('href');
         if (!importFiles[src]) {

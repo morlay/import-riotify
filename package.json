@@ -1,6 +1,6 @@
 {
   "name": "import-riotify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "browserify plugin for riot tag files with some special",
   "main": "index.js",
   "dependencies": {
